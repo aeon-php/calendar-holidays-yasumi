@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac3b35fdea1c58f18adef99967bf10a1",
+    "content-hash": "51c1f8fcc984a78e0910c6a2d4e53032",
     "packages": [
         {
             "name": "aeon-php/calendar",
@@ -109,30 +109,30 @@
         },
         {
             "name": "azuyalabs/yasumi",
-            "version": "2.4.0",
+            "version": "2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/azuyalabs/yasumi.git",
-                "reference": "083a0d0579fee17e68d688d463bc01098ac2691f"
+                "reference": "5fd99815e8bf480fd0e6b76527d5413767e98930"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/azuyalabs/yasumi/zipball/083a0d0579fee17e68d688d463bc01098ac2691f",
-                "reference": "083a0d0579fee17e68d688d463bc01098ac2691f",
+                "url": "https://api.github.com/repos/azuyalabs/yasumi/zipball/5fd99815e8bf480fd0e6b76527d5413767e98930",
+                "reference": "5fd99815e8bf480fd0e6b76527d5413767e98930",
                 "shasum": ""
             },
             "require": {
                 "ext-json": "*",
-                "php": ">=7.3"
+                "php": ">=7.4"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.16",
-                "infection/infection": "^0.17 | ^0.22",
+                "friendsofphp/php-cs-fixer": "v2.19 | v3.5",
+                "infection/infection": "^0.17 | ^0.26",
                 "mikey179/vfsstream": "^1.6",
-                "phan/phan": "^4.0",
-                "phpstan/phpstan": "^0.12.66",
-                "phpunit/phpunit": "^8.5 | ^9.4",
-                "vimeo/psalm": "^4"
+                "phan/phan": "^5.2",
+                "phpstan/phpstan": "^0.12",
+                "phpunit/phpunit": "^8.5 | ^9.5",
+                "vimeo/psalm": "^4.9"
             },
             "suggest": {
                 "ext-calendar": "For calculating the date of Easter"
@@ -178,7 +178,7 @@
                     "type": "other"
                 }
             ],
-            "time": "2021-05-09T09:03:34+00:00"
+            "time": "2022-01-30T07:43:17+00:00"
         }
     ],
     "packages-dev": [],
@@ -188,7 +188,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^7.4.2 || ^8.0 || ^8.1"
+        "php": "^7.4.2 || ~8.0 || ~8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
